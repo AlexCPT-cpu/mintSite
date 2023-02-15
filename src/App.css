@@ -1,0 +1,18 @@
+.App {}
+
+.App-logo {
+}
+.main {}
+.App-header {}
+
+.App-link {
+
+}
+.search{
+  
+}
+
+.grad-hover {
+  @apply hover:bg-gradient-to-r from-pink-700 via-pink-600 to-pink-400 px-4 py-3 rounded-3xl
+}
+
