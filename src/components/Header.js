@@ -111,7 +111,7 @@ const Header = ({ home, explore, stats }) => {
             >
               Apply for Launchpad &nbsp;{" "}
             </button>
-            </ap>
+            </a>
           </div>
         </div>
         <div className="">
