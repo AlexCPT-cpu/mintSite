@@ -60,14 +60,14 @@ const Header = ({ home, explore, stats }) => {
             </Link>
           </div>
           <div className="">
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url">
               {" "}
               <button
                 className={`grad-hover from-pink-700 via-pink-600 to-pink-400 px-8 py-3 rounded-3xl m-2 text-center flex justify-center mx-auto mr-24 items-center`}
               >
                 Apply for Launchpad{" "}
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ const Header = ({ home, explore, stats }) => {
             </Link>
           </div>
           <div className="flex flex-row">
-            <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url'>
+            <a target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url'>
             <button
               onMouseOver={() => setChevron(true)}
               onMouseOut={() => setChevron(false)}
@@ -111,7 +111,7 @@ const Header = ({ home, explore, stats }) => {
             >
               Apply for Launchpad &nbsp;{" "}
             </button>
-            </Link>
+            </ap>
           </div>
         </div>
         <div className="">
