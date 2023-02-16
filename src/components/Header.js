@@ -38,7 +38,7 @@ const Header = ({ home, explore, stats }) => {
          <Link href='/stats'> <button className={`grad-hover ${stats} from-pink-700 via-pink-600 to-pink-400 px-8 py-3 rounded-3xl mr-3 m-2`}>Stats</button></Link>
         </div>
         <div className="">
-        <Link href='#'> <button className={`grad-hover from-pink-700 via-pink-600 to-pink-400 px-8 py-3 rounded-3xl m-2 text-center flex justify-center mx-auto mr-24 items-center`}>Apply for Launchpad {chevron ? <ChevronUpIcon className="w-4" /> : <ChevronDownIcon className="w-4" /> }</button></Link>
+        <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url'> <button className={`grad-hover from-pink-700 via-pink-600 to-pink-400 px-8 py-3 rounded-3xl m-2 text-center flex justify-center mx-auto mr-24 items-center`}>Apply for Launchpad {chevron ? <ChevronUpIcon className="w-4" /> : <ChevronDownIcon className="w-4" /> }</button></Link>
         </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Header = ({ home, explore, stats }) => {
          <Link href='/stats'> <button className={`grad-hover ${stats} from-pink-700 via-pink-600 to-pink-400 px-8 py-3 rounded-3xl mr-3`}>Stats</button></Link>
         </div>
         <div className="flex flex-row">
-         <button onMouseOver={() => setChevron(true)} onMouseOut={() => setChevron(false)} className="grad-hover flex flex-row">Apply for Launchpad &nbsp; {chevron ? <ChevronUpIcon className="w-4 mt-1" /> : <ChevronDownIcon className="w-4 mt-1" /> }</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTufHNrn---fHBWQgZOZOTKPo3RtCohQNGIUgcC2MNHw3ptg/viewform?usp=pp_url"> <button onMouseOver={() => setChevron(true)} onMouseOut={() => setChevron(false)} className="grad-hover flex flex-row">Apply for Launchpad &nbsp; {chevron ? <ChevronUpIcon className="w-4 mt-1" /> : <ChevronDownIcon className="w-4 mt-1" /> }</button></a>
         </div>
         </div>
         <div className="">
